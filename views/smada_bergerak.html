@@ -1,0 +1,170 @@
+  {{define "head"}}
+  <style>
+
+  </style>
+  {{end}}
+
+  {{define "content"}}
+  <!-- About section-->
+  <section class="page-section bg-primary" id="about">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-10 text-center">
+                  <h2 class="text-white mt-0">Apa yang kami lakukan?</h2>
+                  <hr class="divider light my-4" />
+                  <p class="text-white-50 mb-4">Sebagai bentuk rasa peduli kepada tenaga medis yang ada di Lumajang,
+                      kami alumni SMADA 2011 dalam "SMADA Bergerak" menggalang donasi untuk menyumbang APD dan kebutuhan
+                      lainnya.</p>
+                  <p class="text-white-50 mb-4">Mari kita bersama-sama memulai langkah kecil demi tugas besar yang
+                      mereka emban di depan sana. Donasi akan disalurkan kepada RS rujukan dan 25 puskesmas yang
+                      tersebar di Kabupaten Lumajang.</p>
+                  <h2 class="text-white mt-1">Dana terkumpul: {{.TotalDonationCurrency}}</h2>
+                  <div class="progress" style="height: 30px">
+                    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated active" role="progressbar" style="width: {{.Percentage}}%;" aria-valuenow="{{.Percentage}}" aria-valuemin="0" aria-valuemax="100">{{.Percentage}}% dari {{.TargetDonationCurrency}}</div>
+                  </div>
+                  <hr class="divider light my-4" />
+                  <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Yuk Ikut Donasi</a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Services section-->
+  <section class="page-section" id="services">
+      <div class="container">
+          <h2 class="text-center mt-0">Donasi akan disalurkan dalam bentuk</h2>
+          <hr class="divider my-4" />
+          <div class="row">
+              <div class="col-lg-3 col-md-6 text-center">
+                  <div class="mt-5">
+                      <i class="fas fa-4x fa-tshirt text-primary mb-4"></i>
+                      <h3 class="h4 mb-2">Hazmat</h3>
+                      <p class="text-muted mb-0">Baju khusus yang digunakan untuk proteksi melawan material berbahaya.
+                      </p>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 text-center">
+                  <div class="mt-5">
+                      <i class="fas fa-4x fa-head-side-mask text-primary mb-4"></i>
+                      <h3 class="h4 mb-2">Masker</h3>
+                      <p class="text-muted mb-0">Kain penutup mulut dan hidung.</p>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 text-center">
+                  <div class="mt-5">
+                      <i class="fas fa-4x fa-hand-paper text-primary mb-4"></i>
+                      <h3 class="h4 mb-2">Handscoon</h3>
+                      <p class="text-muted mb-0">sarung tangan yang biasa di pakai oleh tenaga medis agar terhindar dari
+                          droplet pasien.</p>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 text-center">
+                  <div class="mt-5">
+                      <i class="fas fa-4x fa-box text-primary mb-4"></i>
+                      <h3 class="h4 mb-2">Kebutuhan lapangan lain</h3>
+                      <p class="text-muted mb-0">Kebutuhan tak terduga lain sesuai perkembangan kasus di lapangan.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Portfolio section-->
+  <section id="portfolio">
+      <div class="container-fluid p-0">
+          <div class="row no-gutters">
+              <div class="col-lg-2 col-sm-2">
+                  <a class="portfolio-box" href="/assets/img/portfolio/fullsize/1.jpg"><img class="img-fluid"
+                          src="/assets/img/portfolio/thumbnails/1.jpg" alt="" />
+                      <div class="portfolio-box-caption">
+                          <div class="project-category text-white-50">Klik untuk memperbesar</div>
+                          <!-- <div class="project-name">Project Name</div> -->
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-sm-2">
+                  <a class="portfolio-box" href="/assets/img/portfolio/fullsize/2.jpg"><img class="img-fluid"
+                          src="/assets/img/portfolio/thumbnails/2.jpg" alt="" />
+                      <div class="portfolio-box-caption">
+                          <div class="project-category text-white-50">Klik untuk memperbesar</div>
+                          <!-- <div class="project-name">Project Name</div> -->
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-sm-2">
+                  <a class="portfolio-box" href="/assets/img/portfolio/fullsize/3.jpg"><img class="img-fluid"
+                          src="/assets/img/portfolio/thumbnails/3.jpg" alt="" />
+                      <div class="portfolio-box-caption">
+                          <div class="project-category text-white-50">Klik untuk memperbesar</div>
+                          <!-- <div class="project-name">Project Name</div> -->
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-sm-2">
+                  <a class="portfolio-box" href="/assets/img/portfolio/fullsize/4.jpg"><img class="img-fluid"
+                          src="/assets/img/portfolio/thumbnails/4.jpg" alt="" />
+                      <div class="portfolio-box-caption">
+                          <div class="project-category text-white-50">Klik untuk memperbesar</div>
+                          <!-- <div class="project-name">Project Name</div> -->
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-sm-2">
+                  <a class="portfolio-box" href="/assets/img/portfolio/fullsize/5.jpg"><img class="img-fluid"
+                          src="/assets/img/portfolio/thumbnails/5.jpg" alt="" />
+                      <div class="portfolio-box-caption">
+                          <div class="project-category text-white-50">Klik untuk memperbesar</div>
+                          <!-- <div class="project-name">Project Name</div> -->
+                      </div>
+                  </a>
+              </div>
+              <div class="col-lg-2 col-sm-2">
+                  <a class="portfolio-box" href="/assets/img/portfolio/fullsize/6.jpg"><img class="img-fluid"
+                          src="/assets/img/portfolio/thumbnails/6.jpg" alt="" />
+                      <div class="portfolio-box-caption p-3">
+                          <div class="project-category text-white-50">Klik untuk memperbesar</div>
+                          <!-- <div class="project-name">Project Name</div> -->
+                      </div>
+                  </a>
+                  <a class="portfolio-box" href="/assets/img/portfolio/fullsize/7.jpg"><img class="img-fluid"
+                          src="/assets/img/portfolio/thumbnails/7.jpg" alt="" />
+                      <div class="portfolio-box-caption p-3">
+                          <div class="project-category text-white-50">Klik untuk memperbesar</div>
+                          <!-- <div class="project-name">Project Name</div> -->
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Call to action section-->
+  <section class="page-section bg-dark text-white" id="contact">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-8 text-center">
+                  <h2 class="mt-0">Yuk Dukung Garda Terdepan!</h2>
+                  <hr class="divider my-4" />
+                  <p class="text-muted mb-5">Donasi Anda bisa disalurkan di rekening berikut</p>
+              </div>
+              <div class="col-lg-6 ml-auto text-center mb-5 mb-lg-0">
+                  <h3>BCA 3150959135</h3>
+                  <p>a.n. Priesty Yustika Putri</p>
+              </div>
+              <div class="col-lg-6 mr-auto text-center">
+                  <h3>CIMB 762007162700</h3>
+                  <p>a.n. Destarizky Tidoputri Pratama</p>
+              </div>
+              <div class="col-lg-12">
+                  </br>
+              </div>
+              <div class="col-lg-6 ml-auto text-center mb-5 mb-lg-0">
+                  <h3>Mandiri 1430011367099</h3>
+                  <p>a.n. Destarizky Tidoputri Pratama</p>
+              </div>
+              <div class="col-lg-6 mr-auto text-center">
+                  <h3>BNI 0453597601</h3>
+                  <p>a.n. Maulia Afidah</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Contact section -->
+  {{end}}
