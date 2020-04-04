@@ -13,4 +13,6 @@ type SmadaBergerakData struct {
 
 type SmadaBergerakHandler interface {
 	Index(c echo.Context) error
+	Transparansi(c echo.Context) error
+	Progres(c echo.Context) error
 }

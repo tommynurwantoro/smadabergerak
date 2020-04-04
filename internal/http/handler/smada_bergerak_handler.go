@@ -25,6 +25,14 @@ func (h *SmadaBergerakHandler) Index(c echo.Context) error {
 	return c.Render(http.StatusOK, "smada_bergerak", h.Data)
 }
 
+func (h *SmadaBergerakHandler) Transparansi(c echo.Context) error {
+	return c.Render(http.StatusOK, "transparansi", h.Data)
+}
+
+func (h *SmadaBergerakHandler) Progres(c echo.Context) error {
+	return c.Render(http.StatusOK, "progres", h.Data)
+}
+
 func NewSmadaBergerakHandler() domain.SmadaBergerakHandler {
 	return &SmadaBergerakHandler{
 		Data: domain.SmadaBergerakData{
